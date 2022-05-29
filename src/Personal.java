@@ -1,4 +1,4 @@
-public abstract class Personal implements Lecturable{
+public abstract class Personal implements canLecture {
     protected String name;
     protected int birthYear;
     protected String department;

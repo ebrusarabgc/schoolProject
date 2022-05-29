@@ -1,4 +1,4 @@
-public abstract class Student implements Lecturable{
+public abstract class Student implements canLecture {
     protected String name;
     protected double GPA;
     double studentLimit = 100.0;

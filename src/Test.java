@@ -25,7 +25,7 @@ public class Test {
         Object[] o = {ac1, ac2, ad1, p1, p2, p3, g1, g2, g3, u1, u2, u3, e1, e2};
 
         for (Object value : o) {
-            LectureProcessor.doIt((Lecturable) value);
+            LectureProcessor.doIt((canLecture) value);
         }
     }
 
